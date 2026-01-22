@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="filter-section">
+  <h3>Filter Vehicles</h3>
+
+  <!-- Vehicle Type -->
+  <label for="type">Type:</label>
+  <select id="type">
+    <option value="">All</option>
+    <option value="cycle">Cycle</option>
+    <option value="bike">Bike</option>
+    <option value="car">Car</option>
+  </select>
+
+  <!-- Condition -->
+  <label for="condition">Condition:</label>
+  <select id="condition">
+    <option value="">All</option>
+    <option value="new">New</option>
+    <option value="like-new">Like New</option>
+    <option value="good">Good</option>
+    <option value="fair">Fair</option>
+  </select>
+
+  <!-- Price -->
+  <label for="maxPrice">Max Price:</label>
+  <input type="number" id="maxPrice" placeholder="e.g. 5000">
+
+  <!-- Brand -->
+  <label for="brand">Brand:</label>
+  <input type="text" id="brand" placeholder="e.g. Hercules">
+
+  <button onclick="applyVehicleFilters()">Apply Filters</button>
+</div>
+</body>
+</html>

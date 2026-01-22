@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="filter-section">
+  <h3>Filter Lab Coats / Aprons</h3>
+
+  <!-- Size -->
+  <label for="size">Size:</label>
+  <select id="size">
+    <option value="">All</option>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="xl">XL</option>
+  </select>
+
+  <!-- Material -->
+  <label for="material">Material:</label>
+  <select id="material">
+    <option value="">All</option>
+    <option value="cotton">Cotton</option>
+    <option value="polyester">Polyester</option>
+    <option value="blend">Cotton Blend</option>
+  </select>
+
+  <!-- Condition -->
+  <label for="condition">Condition:</label>
+  <select id="condition">
+    <option value="">All</option>
+    <option value="new">New</option>
+    <option value="like-new">Like New</option>
+    <option value="good">Good</option>
+    <option value="fair">Fair</option>
+  </select>
+
+  <!-- Price -->
+  <label for="maxPrice">Max Price:</label>
+  <input type="number" id="maxPrice" placeholder="e.g. 500">
+
+  <button onclick="applyLabCoatFilters()">Apply Filters</button>
+</div>
+</body>
+</html>
